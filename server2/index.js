@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 // Serve static files (optional)
 app.use(express.static('public'));
 
-// Define your routes
+/* Define your routes  */
 app.get('/iframe-website1', (req, res) => {
     res.sendFile(__dirname + '/public/iframe-website1.html');
 });
